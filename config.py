@@ -37,7 +37,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7512463676"))
 #port set to default 8080
 PORT = os.environ.get("PORT", "6946")
 #your database url mongodb only You can use mongo atlas free cloud database
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://Dam:aloksingh@cluster0.6z0hq.mongodb.net/?retryWrites=true&w=majority")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://Cute:aloksingh@cute.1tbj1.mongodb.net/?retryWrites=true&w=majority")
 #your database name
 DB_NAME = os.environ.get("DB_NAME", "filesharexbot")
 
@@ -62,9 +62,9 @@ https://dashboard.shareus.io/
 USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
 # only shareus service known rightnow rest you can test on your own
 SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "Modijiurl.com")
-# SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "6f53c862c70eefb04d8f8d18953100d35ebc066c")
+# SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "1764633c10720d858365faa20245779230b31303")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "6f53c862c70eefb04d8f8d18953100d35ebc066c")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "1764633c10720d858365faa20245779230b31303")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
